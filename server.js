@@ -6,6 +6,7 @@ const db = require('./db/tasks')
 
 const PORT = process.env.PORT || 3000;
 
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
