@@ -7,6 +7,6 @@ POST http://localhost:3000/tasks
 content-type: application/json
 
 {
-    "task": "Complete application",
-    "completed": 1
+    "task": "For the next app I will make sure to create something really functional",
+    "completed": 0
 }
